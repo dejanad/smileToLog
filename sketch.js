@@ -11,6 +11,9 @@ function setup() {
   createCanvas(w, h);
   video.hide();
 video.position(50,100);
+   video: {
+      facingMode: "user"
+    }
 }
 
 function draw() {
